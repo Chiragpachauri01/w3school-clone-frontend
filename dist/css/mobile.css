@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1000px) {
+    .desktop {
+      display: none;
+    }
+    .mobile{
+        display: flex;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+        padding: 0 20px;
+        position: relative;
+        z-index: 9;
+      }
+      header .mobile ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      header .mobile > ul > li > a {
+        padding: 25px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 22px;
+        background: #fff;
+        color: #000;
+        display: block;
+        font-weight: 500;
+      }
+      header .mobile > ul > li > ul{
+      display: flex;
+      flex-direction: column;
+      align-items: center!important;
+
+      }
+      header .mobile ul a.logo {
+        padding: 0;
+        margin-right: 20px;
+      }
+      header .mobile > ul > li:hover > a {
+        background: #04aa6d;
+        color: #fff;
+      }
+      header .mobile > ul > li:hover > a:after {
+        border-top-color: transparent;
+        border-bottom-color: #fff;
+        margin-top: -6px;
+      }
+      
+      header .mobile .has-menu a {
+        position: relative;
+      }
+      
+      header .mobile .has-menu > a:after {
+        content: "";
+        position: absolute;
+        border: 5px solid transparent;
+        border-top-color: #000;
+        top: 50%;
+        margin-top: -3px;
+        right: 10px;
+      }
+      
+header .mobile > ul > li > ul {
+    background: rgb(40, 42, 53);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    align-items: flex-start;
+    padding: 50px;
+    display: none;
+  }
+  
+  header .mobile > ul > li:hover > ul {
+    display: flex;
+  }
+  
+  header .mobile > ul > li > ul a {
+    color: #fff;
+  }
+  
+  header .mobile > ul > li > ul li {
+    color:#ccc;
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  header .mobile > ul > li > ul li:hover {
+  color:#fff4a3;
+ 
+  }
+  
+  header .mobile > ul > li > ul > li > ul > li {
+    padding: 0;
+  }
+  
+
+  
+  header .mobile > ul > li > ul > li {
+    width: 25%;
+  }
+  
+  header .mobile > ul > li > ul > li ul {
+    padding-top: 20px;
+  }
+  
+  header .mobile > ul > li > ul ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -10px;
+  }
+  
+  header .mobile > ul > li .has-button {
+    display: flex;
+    background-color: #fff4a3;
+    color: #000;
+    height: 40px;
+    max-width: 150px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  header .mobile > ul > li .has-button:hover {
+    background-color: #04aa6d;
+    color: #fff;
+  }
+  
+  header .mobile > ul > li > ul ul a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  header .mobile > ul > li > ul ul a:hover {
+    color: #000;
+    background-color: #ccc;
+  }
+ 
+  header> .right-links> ul>li:nth-last-child(-n + 3) {
+  display: none;
+}
+header> .right-links> ul>li{
+   display: flex;
+   align-items: center;
+
+}
+
+  }

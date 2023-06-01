@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Freckle Face";
+  src: url("../fonts/FreckleFace/FreckleFace-Regular/FreckleFace-Regular.eot");
+  src: url("../fonts/FreckleFace/FreckleFace-Regular/FreckleFace-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FreckleFace/FreckleFace-Regular/FreckleFace-Regular.woff2")
+      format("woff2"),
+    url("../fonts/FreckleFace/FreckleFace-Regular/FreckleFace-Regular.woff")
+      format("woff"),
+    url("../fonts/FreckleFace/FreckleFace-Regular/FreckleFace-Regular.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
