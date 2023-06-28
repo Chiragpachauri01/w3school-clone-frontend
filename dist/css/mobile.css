@@ -168,13 +168,5 @@ header> .right-links> ul>li{
 
 
   }
-  @media only screen and (max-width: 600){
-    .grid-container .item{
-      width: calc(100% - 30px);
-    
-    }
-    .grid-container .item:nth-child(n + 9) {
-      width: calc(50% - 45px);
-    }
 
-  }
+  
